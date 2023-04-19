@@ -1,0 +1,1319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: idroid;
+    src: url(../font/idroid.otf);
+}
+
+header {
+    background-image: linear-gradient(to bottom, #6daa6d, #284028);
+    height: 220px;
+}
+
+.cabecalho h1{
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cabecalho p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;   
+}
+
+.cabecalho ul{
+    display: flex;
+}
+
+.cabecalho ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+.cabecalho ul li:hover {
+   background-color: rgb(79, 112, 79);
+   border-radius: 4px;
+}
+
+ ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/*Section e corpo*/
+
+
+.corpo {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo {
+    background-color: white;
+    width: 70%;
+
+}
+
+/* Primeir titulo e paragrafo*/
+.titulo-paragrafo1 h2 {
+    margin-top: 30px;
+    font-family: idroid;
+    padding: 10px;
+}
+.titulo-paragrafo1 p {
+    margin-top: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* Segundo titulo, paragrafo e imagem*/
+
+.titulo-paragrafo2 h2 {
+    font-family: idroid;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.titulo-paragrafo2 p {
+    margin-top: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.titulo-paragrafo2, .imagem img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+/*Terceiro titulo e paragrafo*/
+
+.titulo-paragrafo3 h2 {
+    font-family: idroid;
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+
+}
+
+.titulo-paragrafo3 p {
+    text-align: justify;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.titulo-paragrafo3, .imagem2 img {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.titulo-paragrafo3, .imagem3 img{
+    text-align: center;
+}
+
+
+/*Video*/
+
+.video {
+    text-align: center;
+    background-color: #284028;
+    margin-top: 30px;
+
+}
+
+.video iframe {
+    padding: 20px;
+    width: 90%;
+    height: 500px;
+    border-radius: 16px;
+}
+
+/*Section Final e footer*/
+
+.corpo2 {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo2 {
+    width: 70%;
+    background-color: white;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 0 0 18px 18px;
+}
+
+.conteudo2 p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo3 { 
+    margin: 20px auto;
+    width: 95%;
+    background-color: #a9e7a9;
+    border-radius: 18px;
+    height: 380px;
+}
+
+.conteudo3 h2 {
+    font-size: 20px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: rgb(68, 101, 67);
+    border-radius: 18px 18px 0px 0px;
+}
+
+.conteudo3 p {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.lista{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 50% calc(50% - 30px);
+    
+}
+
+.lista1  li{
+    margin-left: 30px;
+    list-style-type: circle;
+    color: black;
+}
+
+.lista2 li {
+    list-style-type: circle;
+}
+
+.lista1 li a, .lista2 li a {
+    color: black;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    height: 30px;
+    background-color: #284028;
+    
+}
+
+footer p {
+    padding-top: 5px;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 870px) {
+    header {
+        background-image: linear-gradient(to bottom, #6daa6d, #284028);
+        height: 200px;
+    }
+
+    .cabecalho h1{
+        color: white;
+        font-size: 28px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .cabecalho p{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        text-align: center;
+        padding: 30px;   
+    }
+
+    .cabecalho ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cabecalho ul li {
+        margin-left: 20px;
+        list-style: none;
+    }
+
+    .cabecalho ul li:hover {
+        background-color: rgb(79, 112, 79);
+        border-radius: 4px;
+    }  
+
+    ul li a {
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+
+    /*Section e corpo*/
+
+
+    .corpo {
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+    }
+
+    .conteudo {
+        background-color: white;
+        width: 90%;
+
+    }
+
+    /* Primeir titulo e paragrafo*/
+    .titulo-paragrafo1 h2 {
+        margin-top: 30px;
+        font-family: idroid;
+        padding: 10px;
+    }
+    .titulo-paragrafo1 p {
+        margin-top: 20px;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    /* Segundo titulo, paragrafo e imagem*/
+
+    .titulo-paragrafo2 h2 {
+        font-family: idroid;
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    .titulo-paragrafo2 p {
+        margin-top: 20px;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .titulo-paragrafo2, .imagem img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    /*Terceiro titulo e paragrafo*/
+
+    .titulo-paragrafo3 h2 {
+        font-family: idroid;
+        margin-top: 20px;
+        text-align: left;
+        padding: 10px;
+
+    }
+
+    .titulo-paragrafo3 p {
+        text-align: justify;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .titulo-paragrafo3, .imagem2 img {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+        
+    }
+
+    .titulo-paragrafo3, .imagem3 img{
+        text-align: center;
+    }
+
+
+    /*Video*/
+
+    .video {
+        text-align: center;
+        background-color: #284028;
+        margin-top: 30px;
+
+    }
+
+    .video iframe {
+        padding: 20px;
+        width: 90%;
+        height: 500px;
+        border-radius: 16px;
+    }
+
+        /*Section Final e footer*/
+
+    .corpo2 {
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+    }
+
+    .conteudo2 {
+        width: 90%;
+        background-color: white;
+        display: block;
+        margin-bottom: 30px;
+        border-radius: 0 0 18px 18px;
+    }
+
+    .conteudo2 p {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .conteudo3 { 
+        margin: 20px auto;
+        width: 95%;
+        background-color: #a9e7a9;
+        border-radius: 18px;
+        height: auto;
+    }
+
+    .conteudo3 h2 {
+        font-size: 20px;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        background-color: rgb(68, 101, 67);
+        border-radius: 18px 18px 0px 0px;
+    }
+
+    .conteudo3 p {
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .lista{
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: 50% calc(50% - 30px);
+        
+    }
+
+    .lista1  li{
+        list-style-type: circle;
+        color: black;
+    }
+
+    .lista2 li {
+        list-style-type: circle;
+    }
+
+    .lista1 li a, .lista2 li a {
+        color: black;
+    }
+
+    footer{
+        display: block;
+        text-align: center;
+        height: auto;
+        background-color: #284028;
+        
+    }
+
+    footer p {
+        padding-top: 5px;
+        color: white;
+    }
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        background-image: linear-gradient(to bottom, #6daa6d, #284028);
+        height: 200px;
+    }
+
+    .cabecalho h1{
+        color: white;
+        font-size: 28px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .cabecalho p{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        text-align: center;
+        padding: 30px;   
+    }
+
+    .cabecalho ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cabecalho ul li {
+        margin-left: 20px;
+        list-style: none;
+    }
+
+    .cabecalho ul li:hover {
+        background-color: rgb(79, 112, 79);
+        border-radius: 4px;
+    }  
+
+    ul li a {
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+
+    /*Section e corpo*/
+
+
+    .corpo {
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+    }
+
+    .conteudo {
+        background-color: white;
+        width: 90%;
+
+    }
+
+    /* Primeir titulo e paragrafo*/
+    .titulo-paragrafo1 h2 {
+        margin-top: 30px;
+        font-family: idroid;
+        padding: 10px;
+    }
+    .titulo-paragrafo1 p {
+        margin-top: 20px;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    /* Segundo titulo, paragrafo e imagem*/
+
+    .titulo-paragrafo2 h2 {
+        font-family: idroid;
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    .titulo-paragrafo2 p {
+        margin-top: 20px;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .titulo-paragrafo2, .imagem img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    /*Terceiro titulo e paragrafo*/
+
+    .titulo-paragrafo3 h2 {
+        font-family: idroid;
+        margin-top: 20px;
+        text-align: left;
+        padding: 10px;
+
+    }
+
+    .titulo-paragrafo3 p {
+        text-align: justify;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .titulo-paragrafo3, .imagem2 img {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+        
+    }
+
+    .titulo-paragrafo3, .imagem3 img{
+        text-align: center;
+    }
+
+
+    /*Video*/
+
+    .video {
+        text-align: center;
+        background-color: #284028;
+        margin-top: 30px;
+
+    }
+
+    .video iframe {
+        padding: 20px;
+        width: 90%;
+        height: 500px;
+        border-radius: 16px;
+    }
+
+        /*Section Final e footer*/
+
+    .corpo2 {
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+    }
+
+    .conteudo2 {
+        width: 90%;
+        background-color: white;
+        display: block;
+        margin-bottom: 30px;
+        border-radius: 0 0 18px 18px;
+    }
+
+    .conteudo2 p {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .conteudo3 { 
+        margin: 20px auto;
+        width: 95%;
+        background-color: #a9e7a9;
+        border-radius: 18px;
+        height: auto;
+    }
+
+    .conteudo3 h2 {
+        font-size: 20px;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        background-color: rgb(68, 101, 67);
+        border-radius: 18px 18px 0px 0px;
+    }
+
+    .conteudo3 p {
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .lista{
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: 50% calc(50% - 30px);
+        
+    }
+
+    .lista1  li{
+        list-style-type: circle;
+        color: black;
+    }
+
+    .lista2 li {
+        list-style-type: circle;
+    }
+
+    .lista1 li a, .lista2 li a {
+        color: black;
+    }
+
+    footer{
+        display: block;
+        text-align: center;
+        height: auto;
+        background-color: #284028;
+        
+    }
+
+    footer p {
+        padding-top: 5px;
+        color: white;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 580px) {
+        header {
+        background-image: linear-gradient(to bottom, #6daa6d, #284028);
+        height: 200px;
+    }
+
+    .cabecalho h1{
+        color: white;
+        font-size: 28px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .cabecalho p{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        text-align: center;
+        padding: 30px;   
+    }
+
+    .cabecalho ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cabecalho ul li {
+        margin-left: 20px;
+        list-style: none;
+    }
+
+    .cabecalho ul li:hover {
+        background-color: rgb(79, 112, 79);
+        border-radius: 4px;
+    }  
+
+    ul li a {
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+
+        /*Section e corpo*/
+
+
+    .corpo {
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+    }
+
+    .conteudo {
+        background-color: white;
+        width: 100%;
+
+    }
+
+    /* Primeir titulo e paragrafo*/
+    .titulo-paragrafo1 h2 {
+        margin-top: 30px;
+        font-family: idroid;
+        padding: 10px;
+    }
+    .titulo-paragrafo1 p {
+        margin-top: 20px;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    /* Segundo titulo, paragrafo e imagem*/
+
+    .titulo-paragrafo2 h2 {
+        font-family: idroid;
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    .titulo-paragrafo2 p {
+        margin-top: 20px;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .titulo-paragrafo2, .imagem img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    /*Terceiro titulo e paragrafo*/
+
+    .titulo-paragrafo3 h2 {
+        font-family: idroid;
+        margin-top: 20px;
+        text-align: left;
+        padding: 10px;
+
+    }
+
+    .titulo-paragrafo3 p {
+        text-align: justify;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .titulo-paragrafo3, .imagem2 img {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+        
+    }
+
+    .titulo-paragrafo3, .imagem3 img{
+        text-align: center;
+    }
+
+
+    /*Video*/
+
+    .video {
+        text-align: center;
+        background-color: #284028;
+        margin-top: 30px;
+
+    }
+
+    .video iframe {
+        padding: 20px;
+        width: 100%;
+        height: 300px;
+        border-radius: 16px;
+    }
+
+    /*Section Final e footer*/
+
+    .corpo2 {
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+    }
+
+    .conteudo2 {
+        width: 100%;
+        background-color: white;
+        display: block;
+        margin-bottom: 30px;
+        border-radius: 0 0 18px 18px;
+    }
+
+    .conteudo2 p {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .conteudo3 { 
+        margin: 20px auto;
+        width: 95%;
+        background-color: #a9e7a9;
+        border-radius: 18px;
+        height: auto;
+    }
+
+    .conteudo3 h2 {
+        font-size: 20px;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        background-color: rgb(68, 101, 67);
+        border-radius: 18px 18px 0px 0px;
+    }
+
+    .conteudo3 p {
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px;
+        
+    }
+
+    .lista{
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: 50% calc(50% - 30px);
+        
+    }
+
+    .lista1  li{
+        list-style-type: circle;
+        color: black;
+    }
+
+    .lista2 li {
+        list-style-type: circle;
+    }
+
+    .lista1 li a, .lista2 li a {
+        color: black;
+    }
+
+    footer{
+        display: block;
+        text-align: center;
+        height: auto;
+        background-color: #284028;
+        
+    }
+
+    footer p {
+        padding-top: 5px;
+        color: white;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+    header {
+    background-image: linear-gradient(to bottom, #6daa6d, #284028);
+    height: 200px;
+}
+
+.cabecalho h1{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cabecalho p{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-align: center;
+    padding: 30px;   
+}
+
+.cabecalho ul{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+.cabecalho ul li:hover {
+    background-color: rgb(79, 112, 79);
+    border-radius: 4px;
+}  
+
+ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+    /*Section e corpo*/
+
+
+.corpo {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo {
+    background-color: white;
+    width: 100%;
+
+}
+
+/* Primeir titulo e paragrafo*/
+.titulo-paragrafo1 h2 {
+    margin-top: 30px;
+    font-family: idroid;
+    padding: 10px;
+}
+.titulo-paragrafo1 p {
+    margin-top: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* Segundo titulo, paragrafo e imagem*/
+
+.titulo-paragrafo2 h2 {
+    font-family: idroid;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.titulo-paragrafo2 p {
+    margin-top: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.titulo-paragrafo2, .imagem img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+/*Terceiro titulo e paragrafo*/
+
+.titulo-paragrafo3 h2 {
+    font-family: idroid;
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+
+}
+
+.titulo-paragrafo3 p {
+    text-align: justify;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.titulo-paragrafo3, .imagem2 img {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.titulo-paragrafo3, .imagem3 img{
+    text-align: center;
+}
+
+
+/*Video*/
+
+.video {
+    text-align: center;
+    background-color: #284028;
+    margin-top: 30px;
+
+}
+
+.video iframe {
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
+}
+
+/*Section Final e footer*/
+
+.corpo2 {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo2 {
+    width: 100%;
+    background-color: white;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 0 0 18px 18px;
+}
+
+.conteudo2 p {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.conteudo3 { 
+    margin: 20px auto;
+    width: 95%;
+    background-color: #a9e7a9;
+    border-radius: 18px;
+    height: auto;
+}
+
+.conteudo3 h2 {
+    font-size: 20px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: rgb(68, 101, 67);
+    border-radius: 18px 18px 0px 0px;
+}
+
+.conteudo3 p {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    
+}
+
+.lista{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 50% calc(50% - 30px);
+    
+}
+
+.lista1  li{
+    list-style-type: circle;
+    color: black;
+}
+
+.lista2 li {
+    list-style-type: circle;
+}
+
+.lista1 li a, .lista2 li a {
+    color: black;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    height: auto;
+    background-color: #284028;
+    
+}
+
+footer p {
+    padding-top: 5px;
+    color: white;
+}
+
+
+}
+
+
+@media screen and (max-width: 424px) {
+    header {
+    background-image: linear-gradient(to bottom, #6daa6d, #284028);
+    height: auto;
+}
+
+.cabecalho h1{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cabecalho p{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-align: center;
+    padding: 30px;   
+}
+
+.cabecalho ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+.cabecalho ul li:hover {
+    background-color: rgb(79, 112, 79);
+    border-radius: 4px;
+}  
+
+ul li a {
+    
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+    /*Section e corpo*/
+
+
+.corpo {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo {
+    background-color: white;
+    width: 100%;
+
+}
+
+/* Primeir titulo e paragrafo*/
+.titulo-paragrafo1 h2 {
+    margin-top: 30px;
+    font-family: idroid;
+    padding: 10px;
+}
+.titulo-paragrafo1 p {
+    margin-top: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* Segundo titulo, paragrafo e imagem*/
+
+.titulo-paragrafo2 h2 {
+    font-family: idroid;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.titulo-paragrafo2 p {
+    margin-top: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.titulo-paragrafo2, .imagem img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+/*Terceiro titulo e paragrafo*/
+
+.titulo-paragrafo3 h2 {
+    font-family: idroid;
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+
+}
+
+.titulo-paragrafo3 p {
+    text-align: justify;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.titulo-paragrafo3, .imagem2 img {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.titulo-paragrafo3, .imagem3 img{
+    text-align: center;
+}
+
+
+/*Video*/
+
+.video {
+    text-align: center;
+    background-color: #284028;
+    margin-top: 30px;
+
+}
+
+.video iframe {
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
+}
+
+/*Section Final e footer*/
+
+.corpo2 {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo2 {
+    width: 100%;
+    background-color: white;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 0 0 18px 18px;
+}
+
+.conteudo2 p {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.conteudo3 { 
+    margin: 20px auto;
+    width: 95%;
+    background-color: #a9e7a9;
+    border-radius: 18px;
+    height: auto;
+}
+
+.conteudo3 h2 {
+    font-size: 20px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: rgb(68, 101, 67);
+    border-radius: 18px 18px 0px 0px;
+}
+
+.conteudo3 p {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    
+}
+
+.lista{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 50% calc(50% - 30px);
+    
+}
+
+.lista1  li{
+    list-style-type: circle;
+    color: black;
+}
+
+.lista2 li {
+    list-style-type: circle;
+}
+
+.lista1 li a, .lista2 li a {
+    color: black;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    height: auto;
+    background-color: #284028;
+    
+}
+
+footer p {
+    padding-top: 5px;
+    color: white;
+}
+
+
+}
+
